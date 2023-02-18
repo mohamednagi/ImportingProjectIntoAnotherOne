@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SanFranciscoText-Bold.otf">
+            <string>SanFranciscoText-Bold</string>
+        </array>
+        <array key="SanFranciscoText-Regular.otf">
+            <string>SanFranciscoText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FiltersTrendsTableViewCell" rowHeight="64" id="lPE-Z7-bzd" customClass="FiltersTrendsTableViewCell" customModule="Motivay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lPE-Z7-bzd" id="icy-hC-YHg">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ODd-GC-O1N">
+                        <rect key="frame" x="16" y="11" width="42" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="SEH-QO-kH1"/>
+                            <constraint firstAttribute="height" constant="42" id="eJh-bV-6aw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Jl-YR-7L8" customClass="AutomaticallyLocalizedLabel" customModule="Motivay" customModuleProvider="target">
+                        <rect key="frame" x="74" y="12" width="285" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Sy1-q5-KgL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SanFranciscoText-Bold" family="San Francisco Text" pointSize="14"/>
+                        <color key="textColor" red="0.011764705882352941" green="0.011764705882352941" blue="0.011764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QT-fA-xoa" customClass="ArabicNumbersLabel" customModule="Motivay" customModuleProvider="target">
+                        <rect key="frame" x="74" y="32" width="285" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Jch-YB-dxB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="12"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.45882352939999999" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4Jl-YR-7L8" firstAttribute="top" secondItem="icy-hC-YHg" secondAttribute="topMargin" constant="1" id="7nd-RD-1Rk"/>
+                    <constraint firstItem="8QT-fA-xoa" firstAttribute="leading" secondItem="ODd-GC-O1N" secondAttribute="trailing" constant="16" id="9JT-ga-Vz6"/>
+                    <constraint firstItem="4Jl-YR-7L8" firstAttribute="leading" secondItem="ODd-GC-O1N" secondAttribute="trailing" constant="16" id="CQE-AG-JiE"/>
+                    <constraint firstAttribute="trailing" secondItem="8QT-fA-xoa" secondAttribute="trailing" constant="16" id="QjK-kp-VV6"/>
+                    <constraint firstItem="ODd-GC-O1N" firstAttribute="top" secondItem="icy-hC-YHg" secondAttribute="topMargin" id="WOp-U8-owo"/>
+                    <constraint firstItem="8QT-fA-xoa" firstAttribute="top" secondItem="4Jl-YR-7L8" secondAttribute="bottom" id="l1z-kT-9UB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="4Jl-YR-7L8" secondAttribute="trailing" id="oW6-7w-eEK"/>
+                    <constraint firstItem="ODd-GC-O1N" firstAttribute="leading" secondItem="icy-hC-YHg" secondAttribute="leadingMargin" id="ytB-HI-Gnd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="hashtagImageView" destination="ODd-GC-O1N" id="hQF-Mb-Z9s"/>
+                <outlet property="hashtagLabel" destination="4Jl-YR-7L8" id="hJl-d3-G0g"/>
+                <outlet property="postCountLabel" destination="8QT-fA-xoa" id="k9F-AJ-CLV"/>
+            </connections>
+            <point key="canvasLocation" x="86.5" y="226"/>
+        </tableViewCell>
+    </objects>
+</document>

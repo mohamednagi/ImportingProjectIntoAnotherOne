@@ -1,0 +1,10 @@
+{
+    "Errors": [],
+    "Success": true,
+    "Data": [
+             {"Id":1, "Name": "IT"},
+             {"Id":2, "Name": "Marketing"},
+             {"Id":3, "Name": "Sales"},
+             {"Id":4, "Name": "Broker"}
+             ]
+}

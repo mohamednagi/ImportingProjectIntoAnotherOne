@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "You'll be notified of all the activities occurring on your profile"; ObjectID = "Sfd-iw-pbD"; */
+#"Sfd-iw-pbD.text" = "سيتم إشعارك بكل ما يحدث في ملفك";
+
+/* Class = "UILabel"; text = "You'll be notified by email of all the activities occurring on your profile"; ObjectID = "UTv-AP-Iy4"; */
+#"UTv-AP-Iy4.text" = "سيتم إشعارك بالبريد الإلكتروني بكل ما يحدث في ملفك";

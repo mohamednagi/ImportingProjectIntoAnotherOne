@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SanFranciscoText-Bold.otf">
+            <string>SanFranciscoText-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RewardsHorizontalCollectionViewCell" id="ZPe-DT-RHx" customClass="RewardsHorizontalCollectionViewCell" customModule="Entrprise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="257" height="184"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="257" height="184"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZGE-YX-65y">
+                        <rect key="frame" x="16" y="0.0" width="56" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="56" id="38P-Ln-Nd3"/>
+                            <constraint firstAttribute="width" constant="56" id="cf9-IO-h6l"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star-" translatesAutoresizingMaskIntoConstraints="NO" id="F2H-cq-8zK">
+                        <rect key="frame" x="182" y="14" width="14" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="13" id="SvP-b2-g5g"/>
+                            <constraint firstAttribute="height" constant="13" id="XCH-0D-Thc"/>
+                            <constraint firstAttribute="width" constant="14" id="i9K-qk-7c5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fV2-EG-bTZ" customClass="ArabicNumbersLabel" customModule="Entrprise" customModuleProvider="target">
+                        <rect key="frame" x="129" y="27" width="120" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="1rt-Nd-U6f"/>
+                            <constraint firstAttribute="height" constant="34" id="2nY-No-DIZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SanFranciscoText-Bold" family="San Francisco Text" pointSize="24"/>
+                        <color key="textColor" red="0.52941176470588236" green="0.396078431372549" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfh-HE-ToO" customClass="AutomaticallyLocalizedLabel" customModule="Entrprise" customModuleProvider="target">
+                        <rect key="frame" x="16" y="71" width="237" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="k2Y-pS-vER"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOM-xm-Tmd" customClass="AutomaticallyLocalizedLabel" customModule="Entrprise" customModuleProvider="target">
+                        <rect key="frame" x="16" y="91" width="237" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="lEl-xj-GMg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KgH-15-lRY" customClass="AutomaticallyLocalizedButton" customModule="Entrprise" customModuleProvider="target">
+                        <rect key="frame" x="16" y="127" width="225" height="40"/>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="S4j-UK-1eX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <state key="normal" title="Redeem now">
+                            <color key="titleColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fV2-EG-bTZ" secondAttribute="trailing" constant="8" id="1A9-8X-5Mv"/>
+                <constraint firstItem="dOM-xm-Tmd" firstAttribute="top" secondItem="rfh-HE-ToO" secondAttribute="bottom" id="7Lk-3e-sal"/>
+                <constraint firstItem="rfh-HE-ToO" firstAttribute="leading" secondItem="ZPe-DT-RHx" secondAttribute="leading" constant="16" id="92N-Ij-zOE"/>
+                <constraint firstItem="fV2-EG-bTZ" firstAttribute="top" secondItem="F2H-cq-8zK" secondAttribute="bottom" id="AHc-5G-sPH"/>
+                <constraint firstAttribute="trailing" secondItem="dOM-xm-Tmd" secondAttribute="trailing" constant="4" id="C58-BY-0yy"/>
+                <constraint firstItem="rfh-HE-ToO" firstAttribute="top" secondItem="ZGE-YX-65y" secondAttribute="bottom" constant="15" id="Dmo-BD-EiW"/>
+                <constraint firstItem="ZGE-YX-65y" firstAttribute="top" secondItem="ZPe-DT-RHx" secondAttribute="top" id="GSZ-0h-lwc"/>
+                <constraint firstAttribute="trailing" secondItem="KgH-15-lRY" secondAttribute="trailing" constant="16" id="NI1-E0-xlf"/>
+                <constraint firstItem="ZGE-YX-65y" firstAttribute="leading" secondItem="ZPe-DT-RHx" secondAttribute="leading" constant="16" id="dfc-Oz-std"/>
+                <constraint firstItem="KgH-15-lRY" firstAttribute="top" secondItem="dOM-xm-Tmd" secondAttribute="bottom" constant="16" id="egw-l5-zhd"/>
+                <constraint firstItem="fV2-EG-bTZ" firstAttribute="centerX" secondItem="F2H-cq-8zK" secondAttribute="centerX" id="ghg-u8-rIE"/>
+                <constraint firstAttribute="trailing" secondItem="rfh-HE-ToO" secondAttribute="trailing" constant="4" id="hm4-1H-HS5"/>
+                <constraint firstItem="KgH-15-lRY" firstAttribute="leading" secondItem="ZPe-DT-RHx" secondAttribute="leading" constant="16" id="lnS-M2-YF5"/>
+                <constraint firstItem="dOM-xm-Tmd" firstAttribute="leading" secondItem="ZPe-DT-RHx" secondAttribute="leading" constant="16" id="mDF-go-5Va"/>
+                <constraint firstItem="F2H-cq-8zK" firstAttribute="top" secondItem="ZPe-DT-RHx" secondAttribute="top" constant="14" id="uo1-us-Wyu"/>
+            </constraints>
+            <size key="customSize" width="257" height="184"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="8"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="descriptionLabel" destination="dOM-xm-Tmd" id="fvk-ll-rgF"/>
+                <outlet property="pointsLabel" destination="fV2-EG-bTZ" id="mVi-e5-BRT"/>
+                <outlet property="redeemButton" destination="KgH-15-lRY" id="e0w-TS-cPk"/>
+                <outlet property="rewardImageView" destination="ZGE-YX-65y" id="kqY-Bw-mjK"/>
+                <outlet property="titleLabel" destination="rfh-HE-ToO" id="86x-RX-Wi0"/>
+            </connections>
+            <point key="canvasLocation" x="39.5" y="52"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="star-" width="12" height="11"/>
+    </resources>
+</document>

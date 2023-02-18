@@ -1,0 +1,6 @@
+framework module Pods_ImporterProject {
+  umbrella header "Pods-ImporterProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

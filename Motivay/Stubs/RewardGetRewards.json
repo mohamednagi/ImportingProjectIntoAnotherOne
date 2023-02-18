@@ -1,0 +1,63 @@
+{
+    "Errors": [],
+    "Success": true,
+    "Data": [
+             {
+             "SubCategoryId": 1,
+             "Name": "Vouchers",
+             "Items" : [
+                        {
+                        "Id": 1,
+                        "Name": "50 SAR coupon",
+                        "Descritption": "Souq.com",
+                        "Price": 200,
+                        "CategoryName" : "",
+                        "CategoryId": "",
+                        "RewardImage": "https://arabianmarketer.ae/wp-content/uploads/2016/11/Souq-inside.png",
+                        "Bookmarked" : false,
+                        "Redeemed" : false
+                        },
+                        {
+                        "Id": 2,
+                        "Name": "50% coupon",
+                        "Descritption": "Jarir",
+                        "Price": 50,
+                        "CategoryName" : "",
+                        "CategoryId": "",
+                        "RewardImage": "https://store-images.s-microsoft.com/image/apps.15743.13510798887055078.1f70291b-9081-47e1-9c3a-c4239e318782.f784ac19-4237-4401-b000-d1ed113b7ef7?w=180&h=180&q=60",
+                        "Bookmarked" : false,
+                        "Redeemed" : false
+                        }
+                        ]
+             },
+             {
+             "SubCategoryId": 2,
+             "Name": "Gift Cards",
+             "Items" : [
+                        {
+                        "Id": 3,
+                        "Name": "50% coupon",
+                        "Descritption": "Jarir",
+                        "Price": 50,
+                        "CategoryName" : "",
+                        "CategoryId": "",
+                        "RewardImage": "https://store-images.s-microsoft.com/image/apps.15743.13510798887055078.1f70291b-9081-47e1-9c3a-c4239e318782.f784ac19-4237-4401-b000-d1ed113b7ef7?w=180&h=180&q=60",
+                        "Bookmarked" : false,
+                        "Redeemed" : false
+                        },
+                        
+                        {
+                        "Id": 2,
+                        "Name": "50 SAR coupon",
+                        "Descritption": "Souq.com",
+                        "Price": 200,
+                        "CategoryName" : "",
+                        "CategoryId": "",
+                        "RewardImage": "https://arabianmarketer.ae/wp-content/uploads/2016/11/Souq-inside.png",
+                        "Bookmarked" : false,
+                        "Redeemed" : false
+                        }
+                        ]
+             }
+             ]
+}

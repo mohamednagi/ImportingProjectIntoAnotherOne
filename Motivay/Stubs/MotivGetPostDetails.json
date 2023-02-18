@@ -1,0 +1,26 @@
+{
+    "Errors": [],
+    "Success": true,
+    "Data": {
+             "PostId":1,
+             "From": "Yasser",
+             "IsAllowedForBravo": true,
+             "ListOfTags": [],
+                            "ListOfComments": [
+                                               {
+                                               "CommentId":1,
+                                               "From": "Ahmed",
+                                               "CommentDescription": "Thanks",
+                                               "CreationDate": "2018-02-22T06:56:04.219412+0200",
+                                               "To": "Yasser"
+                                               }
+                                               ],
+
+             "AwardDescription": "Great job",
+             "CreationDate": "2018-02-21T06:56:04.219412+0200",
+             "To": "Ahmed",
+             "NumberOfComments": 12,
+             "NumberOfSayBravo":34,
+             "TotalPoints":25
+             }
+}

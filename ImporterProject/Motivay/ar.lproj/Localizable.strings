@@ -1,0 +1,326 @@
+//  Localizable.strings
+//
+//  Created by Yehia Elbehery.
+//
+
+
+// Titles
+
+//storyboard
+"Username/Email" = "اسم المستخدم / البريد الإلكتروني";
+//"البريد الإليكتروني/إسم المستخدم";
+"Sign In" = "تسجيل الدخول";
+"Reset your password" = "إعادة ضبط كلمة السر";
+"Username" = "إسم المستخدم";
+"Next" = "التالي";
+"Passcode" = "رمز المرور";
+"Enter your email or username" = "ادخل اسم المستخدم أو البريد الإلكتروني لاسترجاع حسابك";
+"<" = ">";
+"New Password" = "كلمة السر";
+"Confirm Password" = "تأكيد كلمة السر";
+"Submit" = "إرسال";
+"Password" = "كلمة السر";
+"Forgot Your Password" = "نسيت كلمة السر";
+"Forgot your password?" = "نسيت كلمة السر؟";
+"Send Thanks" = "إرسال";
+/*"إرسال شكر";*/
+"Thanks alot" = "شكراً جزيلاً";
+"Awesome!" = "رائع!";
+//"You’ve successfully gave" = "أعطيت منحت";
+/*"Back to timeline"*/"Back" = "رجوع";
+"Reset your password?" = "إعادة ضبط كلمة السر";//"تغيير كلمة السر";
+"Earned points" = "النقاط المكتسبة";
+"Balance" = "الرصيد";
+"My Appraisals" = "جوائزي";
+"My Trends" = "أوسمتي";
+"My Profile" = "حسابي";
+"Reply" = "إرسال";
+/*"Tagged times"*/"Tags" = "مرات الإشارة";
+"Total points" = "إجمالي النقاط";
+"Points" = "النقاط";
+"This Month" = "هذا الشهر";
+"Resend Passcode" = "إعادة إرسال رمز المرور";
+
+//Sign in
+"Username" = "إسم المستخدم";
+"Password" = "كلمة السر";
+"Please, enter your username" = "من فضلك، أدخل إسم المستخدم";
+"Please, enter your password" = "من فضلك، أدخل كلمة السر";
+"Email and password don't match" = "بيانات الدخول غير صحيحة";
+"Unable to connect to the internet, Please try again later" = "لا يوجد إتصال بالإنترنت، من فضلك، حاول مرة أخرى لاحقاً";
+"No internet connection" = "لا يوجد إتصال بالإنترنت";
+"Please check your internet connection" = "الرجاء التحقق من إتصال الإنترنت الخاص بك";
+"Yes" = "نعم";
+"No" = "لا";
+//Forgot
+//"Username/Email" = "البريد الإليكتروني/إسم المستخدم";
+"Please, enter your username/email" = "من فضلك، أدخل البريد الإليكتروني/إسم المستخدم";
+"Username/email does not exist" = "لا يوجد لدينا مستخدم بهذا البريد الإليكتروني/إسم المستخدم";
+
+//Reset
+"Please, enter the userId" = "من فضلك، أدخل معرف المستخدم";
+"Please, enter the new password" = "من فضلك، أدخل كلمة السر الجديدة";
+"Passwords don't match" = "كلمتا السر غير متطابقتان";
+"Password must be at least 6 characters long and contain at least one digit and one uppercase letter and one non-letter or digit character" = "كلمة السر يجب أن تكون اطول من خمسة أحرف وتحتوى على حرف كبير (A-Z) ورقم واحد ورمز واحد على الأقل";
+"An error occurred, Please try again later" = "حدث خطأ، يرجي المحاولة مرة أخرى لاحقاً";
+"Password changed successfully" = "تم تغيير كلمة السر بنجاح";
+"We sent you an email with the passcode" = "تم إرسال الكود في رسالة إلى بريدك الإليكتروني";
+"Please, enter the passcode" = "من فضلك، أدخل الكود";
+"Invalid passcode" = "كود غير صحيح";
+"Passcode" = "رمز المرور";
+"Confirm Password" = "تأكيد كلمة السر";
+"We resent you the email with the passcode" = "تم إعادة إرسال الكود في رسالة إلى بريدك";
+
+
+//PostAdd
+"Please, enter the post content" = "من فضلك، أدخل نص الرسالة";
+"Error" = "خطأ";
+"OK" = "تم";
+"Please allow Motivay to access the camera from the device settings" = "من فضلك، إسمح لMotivay بإستخدام الكاميرا من إعدادات الجهاز";
+"Please, allow Motivay to access the Photos from the device settings" = "من فضلك، إسمح لMotivay بإستخدام الصور من إعدادات الجهاز";
+"Some error occurred, Please try again" = "حدث خطأ، من فضلك حاول مرة أخرى";
+"My Balance" = " رصيد النقاط الحالي";
+/*"نقاط رصيدي";*/
+"You've successfully given" = "لقد أعطيت";
+"Successfully" = "بنجاح";
+"You can only attach one image" = "لا يمكنك إدراج أكثر من صورة واحدة";
+"Your post has been sent and waiting for approval from the Admin." = "تم ارسال منشورك وفي انتظار موافقة مسؤول النظام";
+
+//Home
+" to " = " إلى ";
+"Say Bravo" = "برافو";
+//قل أحسنت";
+"Comment" = "تعليق";
+"Search" = "بحث";
+"Cancel" = "إلغاء";
+"Close" = "إغلاق";
+"Dismiss" = "إلغاء";
+//"No results found!" = "لا توجد نتائج!";
+"Sorry! We can't find what you're looking for" = "لا توجد نتائج!";
+/*"There are no posts yet"*/"Uh-oh...looks like there aren't any posts yet!" = "لا توجد مشاراكات حتى الآن";
+/*"Try different keywords or filters"*/"Try something different and we'll look again" = "حاول إستخدام كلمات أو محددات أخرى";
+/*"Start by motivating colleagues"*/"Go ahead and start posting" = "إبدأ وحفز زملائك";
+"Awesome!" = "برافو";
+/*"أحسنت!";*/
+"Pull to refresh" = "إسحب لإعادة التحميل";
+"Loading..." = "...جاري التحميل";
+"Loading more" = "جاري تحميل المزيد";
+"No more data" = "لا مزيد من المنشورات";
+"Home" = "الرئيسية";
+
+//Filters
+"Filters" = "محددات البحث";
+"Department" = "القسم";
+"Are you sure you want to reset all filters?" = "هل أنت متأكد من إزالة جميع المحددات؟";
+"Reset" = "إزالة";
+"Select department(s)" = "اختر القسم (الأقسام)";
+"Select trend(s)" = "اختر الوسام (الأوسمة)";
+"Select date range" = "اختر نطاق التاريخ";
+"Date range" = "نطاق التاريخ";
+"Select person(s)" = "اختر الشخص (الأشخاص)";
+"Trend" = "الوسام";
+"Date" = "التاريخ";
+"Person" = "الشخص";
+"Apply filters" = "تطبيق المحددات";
+"Are you sure you want to reset all filters?" = "هل أنت متأكد من إزالة جميع المحددات؟";
+"Try different keywords" = "حاول إستخدام كلمات أخرى";
+
+//Filters Departments
+"Select department" = "اختر القسم";
+"Departments" = "القسم";
+"Select" = "إختر";
+"Apply" = "حفظ";
+"Employees" = "موظفين";
+"ApplyF" = "تطبيق";
+
+//Filters Trends
+"Select Trend" = "إختر الوسام";
+"Trends" = "الأوسمة";
+
+//Filters Calendar
+"Done" = "تم";
+
+//Fitlers Persons
+/*"Giving Thanks"*/"Praises Received" = "يعطي الشكر";
+/*"Receiving Thanks"*/"Compliments Given" = "يتلقى الشكر";
+/*"All Thanks"*/"All" = "الكل";
+"Show posts as" = "نوع المنشورات";
+"Select Person" =  "إختر الشخص";
+
+//Menu
+"Are you sure you want to logout?" = "هل متأكد من الخروج؟";
+"Logout" = "خروج";
+
+//Post details
+"Motive post" = "منشور محفز";
+//"منشور تحفيزي";
+"Reply to " = "رد علي ";
+"Reply added successfully" = "تم إضافة الرد بنجاح";
+"Delete" = "حذف";
+"Options" = "الخيارات";
+//"الإختيارات";
+"Reply" = "إرسال";
+"Update" = "تعديل";
+"Type your reply here..." = " اكتب ردك";
+"Show more" = "عرض المزيد";
+"Show less" = "عرض القليل";
+"Bravos" = "برافو";
+"Bravo said by" = "أحسنت قيلت من قبل";
+"Kafu said by" = "كفؤ قيلت من قبل";
+//My Profile
+"My Profile" = "حسابي";
+"Edit" = "تعديل";
+"Save" = "حفظ";
+"Earned points" = "النقاط المكتسبة";
+"Balance" = "الرصيد";
+"Change photo" = "تغيير الصورة";
+"Remove photo" = "حذف الصورة";
+"Take Photo" = "التقاط صورة";
+"Choose Photo" = "اختيار صورة";
+"Department" = "القسم";
+"Email" = "البريد الإلكتروني";
+"Mobile Number" = "رقم الهاتف";
+"Join Date" = "تاريخ الإنضمام";
+"Change" = "تغيير";
+"Name" = "الاسم";
+"Position" = "الوظيفة";
+"Mobile Number" = "رقم الهاتف";
+"Twitter account" = "حساب تويتر";
+"Facebook account" = "حساب الفيسبوك";
+"LinkedIn account" = "حساب لينكد إن";
+"Link" = "إضافة";
+"Link Facebook account" = "إضافة حساب الفيسبوك";
+"Link Twitter account" = "إضافة حساب تويتر";
+"Link LinkedIn account" = "إضافة حساب لينكد إن";
+"Status" = "الحالة";
+//"Dept." = "الأقسام";
+"Departments" = "الأقسام";
+"Please, enter your name" = "من فضلك، أدخل إسم";
+"You have edited your profile info successfully." = "لقد تم تعديل بيانات ملفك الشخصي بنجاح.";
+"Error updating profile info" = "خطأ في تعديل البيانات";
+"You have exceeded characters limit which is 35 characters." = "لقد تجاوزت الحد الأقصي للحروف وهو 35 حرف.";
+"You have exceeded numbers limit which is 35 numbers." = "لقد تجاوزت الحد الأقصي للأرقام وهو 35 رقم.";
+"You have exceeded characters limit which is 50 characters." = "لقد تجاوزت الحد الأقصي للحروف وهو 50 حرف.";
+
+//My Awards
+"My Appraisals" = "جوائزي";
+"Total Points" = "إجمالي النقاط";
+"This Month" = "هذا الشهر";
+"Uh-oh...looks like you don't have any awards yet!" = "لا يوجد جوائز بعد!";
+
+//My Trends
+"Trending" = "أوسمتي";
+
+//Stats
+"Stats" = "الإحصائيات";
+"My Stats" = "نتائجي";
+/*"Stars"*/"Top Stars" = "النجوم";
+/*"Top Trends"*/"Trending Now" = "أعلي  الأوسمة";
+"Earned Points" = "النقاط المكتسبة";
+"Sent Points" = "النقاط المرسلة";
+"Total Posts" = "إجمالي المنشورات";
+"Said Bravo" = "قلت أحسنت";
+"posts" = "منشور";
+"Top Performer" = "الأفضل أداءً";
+"Top Giver" = "الأكثر عطاءً";
+"Top Posting" = "الأكثر نشراً";
+"Top Contributor" = "الأكثر مساهمة";
+"Points" = "نقاط";
+"Posts" = "منشورات";
+"Reactions" = "تفاعل";
+
+//Settings
+"Settings" = "الإعدادات";
+"LANGUAGE" = "اللغة";
+"NOTIFICATIONS" = "الإشعارات";
+"Push Notifications" = "الإشعارات";
+"pushNotificationsOn" = "السماح  بالإشعارات الخاصة بالعمليات.";
+"pushNotificationsOff" = "إيقاف الإشعارات الخاصة بالعمليات.";
+"emailNotificationsOn" = "السماح بإشعارات البريد الإلكتروني الخاصة بالعمليات.";
+"emailNotificationsOff" = "إيقاف إشعارات البريد الإلكتروني الخاصة بالعمليات.";
+"Allow push notification for your transactions." = "السماح  بالإشعارات الخاصة بالعمليات.";
+"Email Notifications" = "إشعارات البريد الإلكتروني";
+"You won’t receive email notifications." = "إيقاف إشعارات البريد الإلكتروني.";
+"TERMS & POLICY" = "الشروط والسياسات";
+"Terms & conditions" = "الشروط والأحكام";
+"Privacy policy" = "سياسة الخصوصية";
+"Help" = "المساعدة";
+"Send feedback" = "إرسال تعليق";
+"Feedback Type" = "نوع التعليق";
+"Contact us" = "إتصل بنا";
+"Logout " = "الخروج";
+
+"You'll be notified of all the activities that occurring on your profile" = "سوف يتم اشعارك بجميع انشطه ملفك الشخصي";
+"You won't be notified of any activities that occurring on your profile" = "لن يتم اشعارك باي نشاط خاص بملفك الشخصي";
+
+"You'll be notified by email of all the activities occurring on your profile" = "سوف نقوم باشعارك عبر البريد الالكتروني بجميع انشطه ملفك الشخصي";
+"You won't be notified by email of any activities occurring on your profile" = "لن يتم اشعارك عبر البريد الالكتروني باي نشاط خاص بملفك الشخصي";
+
+"Please, allow Motivay to send you push notifications from the device settings" = "من فضلك، إسمح لMotivay بإرسال إشعارات لك من إعدادات الجهاز";
+"Go to settings" = "الذهاب للإعدادات";
+
+
+//Notifications
+"Notifications" = "الإشعارات";
+"There's no notification yet," = "لا توجد إشعارات الآن,";
+"Check back later for updates" = "برجاء التحقق مرة أخري في وقت لاحق.";
+"replied" = "قاموا بالرد";
+"said" = "قالوا";
+"said1" = "قال";
+"Bravo" = "أحسنت";
+"Kafu" = "كفؤ";
+"replied1" = "قام بالرد";
+"said Bravo1" = "أحسنت";
+"points" = "نقطة";
+"point" = "نقاط";
+"and" = "و";
+"gave you" = "أعطاك";
+"for your" = "ل";
+"other" = "آخرين";
+"others" = "آخر";
+"on" = "على";
+"thank of you" = "منشور";
+"Unfortunately, you didn't receive enough points this month. We believe that you can do better." = "للاسف لم تحصل علي عدد كافي من النقاط هذا الشهر. نحن نؤمن بانك تستطيع ان تقوم بالافضل.";
+"Congratulations! You are one of the stars, Keep it up." = "تهانينا! لقد اصبحت من النجوم، استمر بهذا.";
+"has been approved." = "لقد تم الموافقه علي منشورك التحفيزي ل";
+"has been pinned." = "لقد تم تثبيت منشورك التحفيزي ل";
+"has been rejected." = "لقد تم رفض منشورك التحفيزي ل";
+"post " = "منشور ";
+"motive " = " التحفيزي";
+"You still have " = "ما زال لديك ";
+"in your balance, " = "في حسابك، ";
+"try to motivate your colleagues." = "حاول تحفيز زملائك .";
+"your motive post to " = "منشورك التحفيزي ل ";
+
+//Rewards
+"All" = "الكل";
+"Bookmarked" = "المفضلة";
+"Bookmark" = "تفضيل";
+"Redeem" = "إسترداد";
+/*"Redeem item"*/"Redeem now" = "إسترداد";
+"Redeemed" = "المشتريات";
+"Rewards" = "الجوائز";
+"There are no bookmarked rewards yet" = "لا توجد جوائز في المفضلة حتى الآن";
+//"لا توجد جوائز مفضلة بعد";
+/*"There are no redeemed rewards yet"*/"You haven't redeemed any rewards yet" = "لا توجد جوائز مستردة بعد";
+"There are no rewards yet" = "لا توجد جوائز بعد";
+"Redeem now" = "إسترداد الآن";
+"See All" = "شاهد الكل";
+/*"Card details"*/"Details" = "تفاصيل البطاقة";
+//"تفاصيل الكارت";
+/*"Awards points"*/"total points to redeem" = "نقاط الجوائز";
+"bought it!" = "شخص قاموا بشراء هذا المنتج!";
+"to Redeem this item" = "متبقية لإسترداد هذا المنتج";
+"Are you sure you want to redeem" = "هل تريد إسترداد";
+"with" = "ب";
+"?" = "؟";
+"Congratulations" = "تهانينا";
+"You've successfully redeemed" = "لقد تم بنجاح إسترداد";
+"Your code is" = "رمز الاستخدام ";
+"Back to rewards" = "رجوع إلى الجوائز";
+"Redeemed " = "إستردت";
+"Code" = "كود";
+"State" = "الحالة";
+
+"KAFU" = "كفؤ";
+"Said Kafu" = "قال كفؤ";
